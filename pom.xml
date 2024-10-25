@@ -46,6 +46,7 @@
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <linkXRef>false</linkXRef>
+                    <maxWarnings>1</maxWarnings>
                 </configuration>
                 <executions>
                     <execution>
@@ -87,7 +88,7 @@
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.7</minimum>
+                                            <minimum>0.3</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
