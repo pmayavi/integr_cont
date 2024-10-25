@@ -41,6 +41,7 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     <configLocation>google_checks.xml</configLocation><!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/ -->
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
