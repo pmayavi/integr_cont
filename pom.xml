@@ -39,7 +39,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.9.9</version>
                 <configuration>
                     <reportsDirectory>$target/surefire-reports</reportsDirectory>
                     <configLocation>google_checks.xml</configLocation><!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/ -->
